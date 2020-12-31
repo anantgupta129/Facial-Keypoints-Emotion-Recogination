@@ -37,10 +37,20 @@ Dependencies
 
 RESULTS
 -------
-- Keypoints Model
+- **Keypoints Model** - (train for 100 epochs)
+
+Epoch End Result - loss: 8.9081 - root_mean_squared_error: 2.9846 - val_loss: 69.5729 - val_root_mean_squared_error: 8.3410
+
+Test Set loss: 60.5931 - root_mean_squared_error: 7.7842
+![alt](results/key-loss.png)
 ![alt](results/key-res.png)
 
-- Expression Model
+- **Expression Model** - (train for 50 epochs)
+
+Epoch End Result - loss: 0.3036 - accuracy: 0.8837 - val_loss: 0.5288 - val_accuracy: 0.8259
+
+Accuracy on test set 81.19 %
+![alt](results/exp-loss-acc.png)
 ![alt_text](results/exp-result.png)
 
 - Expression and Keypoints Model Pipeline
